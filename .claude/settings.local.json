@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(go build:*)",
+      "Bash(go vet:*)",
+      "Bash(curl:*)",
+      "Bash(node:*)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\":*)",
+      "Bash(echo:*)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --no-sandbox --user-data-dir=\"D:\\workspace\\APIStressTesting\\.chrome-tmp3\" --hide-scrollbars --window-size=1440,1700 --virtual-time-budget=6000 --screenshot=\"D:\\workspace\\APIStressTesting\\.shot-live.png\" \"http://127.0.0.1:8099/#/run/T20261106-103436544da86722\")",
+      "Bash(gcc:*)",
+      "Bash(clang:*)",
+      "Bash(gofmt:*)",
+      "Bash(netstat:*)",
+      "Bash(cmd //c:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

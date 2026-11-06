@@ -1,0 +1,7 @@
+node_modules/
+*.exe
+*.log
+.chrome-*/
+.shot-*.png
+.export-*
+.live-id
